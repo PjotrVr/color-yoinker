@@ -1,6 +1,6 @@
 ## About
-Goal of this project is create functional clone of
-ColorHunt website, instead of color palletes I use
-color hexcodes
+Goal of this project is to create functional clone of
+ColorHunt website.
+Instead of color palettes I use single color hexcodes.
 
 
