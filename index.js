@@ -19,7 +19,7 @@ function reset(index){
 function fullReset(){
     for(let i=0; i < buttons_len; i++){
         reset(i);
-        buttons[i].style.display = "block";
+        buttons[i].style.display = "inline";
     }
 }
 
@@ -29,17 +29,17 @@ function updateInput () {
             if(buttons[i].innerText.startsWith("#" + inp.value)){
                 buttons[i].style.borderColor = "white";
                 buttons[i].style.color = "white";
-            
             }
             else{
                 reset(i);
                 buttons[i].style.display = "none";
-                
             }
-        }
+        }   
     }
+
     else {
         fullReset();
-
+        location.reload();
     }
 };
+
