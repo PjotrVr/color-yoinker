@@ -31,7 +31,7 @@ button{
     border-color: black;
     border-width: 5px;
     width: 100%;
-    height: 100%;
+    height: 70%;
     border-radius: 10px;
     background-color: transparent;
     font-size: 30px;
@@ -46,7 +46,7 @@ button:hover{
 
 p{
     position: relative;
-    left: 35%;
+    left: 40%;
     font-size: 20px;
 }
 
@@ -71,4 +71,23 @@ p{
 
 .avatar{
     border-radius: 150px;
+}
+
+.main{
+    border-color: black;
+    border-width: 5px;
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 30px;
+    color: black;
+}
+
+.like{
+    margin-top: 5px;
+    height: 20%;
+    width: 50%;
+    font-size: 20px;
+    background-color: yellow;
 }
